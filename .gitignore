@@ -1,16 +1,34 @@
-.DS_Store
-.gradle
-/build/
-gradle-app.setting
-!gradle-wrapper.jar
-.gradletasknamecache
-out
-*.ipr
-*.iws
-*.iml
-.idea
-build
-run
-src/generated/resources/.cache
-forge*changelog.txt
+# exclude all
+/*
 
+# include important folders
+# need gradle
+!gradle/
+!gradlew
+!gradlew.bat
+!build.gradle
+!gradle.properties
+!.travis.yml
+
+# include markdowns
+!README.md
+!LICENSE
+
+# include sourcecode except generated
+!src/
+src/generated
+
+# include git important files
+!.gitmodules
+!.gitignore
+!.gitattributes
+
+# code format to reduce noise in git commits
+#!codeformat/
+
+# Github specific files and directories
+#!.github/
+
+# Explicit ignores
+Thumbs.db
+.DS_Store
