@@ -1,8 +1,0 @@
-{
-"__comment": "Copyright 2018 Filmjolk David Grindholmen",
-    "parent": "block/solid_column",
-    "textures": {
-        "side": "block/ancient_debris_side",
-	    "end": "block/ancient_debris_top"
-    }
-}
