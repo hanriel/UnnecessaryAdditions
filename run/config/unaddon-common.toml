@@ -1,0 +1,64 @@
+
+#World Gen configuration
+[worldgen]
+
+	#Silver Ore
+	[worldgen.silver]
+		#Minimum Spawn Height
+		#Range: 0 ~ 255
+		silverMinY = 15
+		#Maximum Spawn Height
+		#Range: 0 ~ 255
+		silverMaxY = 45
+		#Vein Size
+		#Range: 0 ~ 255
+		silverVeinSize = 7
+		#Probability. Set to 0 to disable generation.
+		#Range: 0 ~ 100
+		silverProbability = 5
+
+	#Lead Ore
+	[worldgen.lead]
+		#Minimum Spawn Height
+		#Range: 0 ~ 255
+		leadMinY = 25
+		#Maximum Spawn Height
+		#Range: 0 ~ 255
+		leadMaxY = 55
+		#Vein Size
+		#Range: 0 ~ 255
+		leadVeinSize = 15
+		#Probability. Set to 0 to disable generation.
+		#Range: 0 ~ 100
+		leadProbability = 7
+
+	#Copper Ore
+	[worldgen.copper]
+		#Minimum Spawn Height
+		#Range: 0 ~ 255
+		copperMinY = 20
+		#Maximum Spawn Height
+		#Range: 0 ~ 255
+		copperMaxY = 70
+		#Vein Size
+		#Range: 0 ~ 255
+		copperVeinSize = 15
+		#Probability. Set to 0 to disable generation.
+		#Range: 0 ~ 100
+		copperProbability = 10
+
+	#Tin Ore
+	[worldgen.tin]
+		#Minimum Spawn Height
+		#Range: 0 ~ 255
+		tinMinY = 10
+		#Maximum Spawn Height
+		#Range: 0 ~ 255
+		tinMaxY = 60
+		#Vein Size
+		#Range: 0 ~ 255
+		tinVeinSize = 10
+		#Probability. Set to 0 to disable generation.
+		#Range: 0 ~ 100
+		tinProbability = 10
+

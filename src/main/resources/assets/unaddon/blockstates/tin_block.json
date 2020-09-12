@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "unaddon:block/tin_block" }
+  }
+}

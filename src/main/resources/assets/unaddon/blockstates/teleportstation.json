@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "unaddon:block/teleportstation" },
+    "facing=south": { "model": "unaddon:block/teleportstation", "y": 180 },
+    "facing=west": { "model": "unaddon:block/teleportstation", "y": 270 },
+    "facing=east": { "model": "unaddon:block/teleportstation", "y": 90 }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "unaddon:item/energy_connector_part"
+  }
+}

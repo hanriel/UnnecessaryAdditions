@@ -1,0 +1,7 @@
+{
+    "parent": "block/xray_column",
+    "textures": {
+        "end": "block/warped_stem_top",
+        "side": "block/warped_stem"
+    }
+}
