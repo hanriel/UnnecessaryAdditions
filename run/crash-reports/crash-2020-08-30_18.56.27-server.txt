@@ -1,0 +1,61 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 30.08.20 18:56
+Description: Exception in server tick loop
+
+java.lang.NoSuchFieldError: field_210820_a
+	at com.sk89q.worldedit.forge.ForgeDataFixer.<clinit>(ForgeDataFixer.java:181) ~[?:?] {re:classloading}
+	at com.sk89q.worldedit.forge.ForgePlatform.<init>(ForgePlatform.java:72) ~[?:?] {re:classloading}
+	at com.sk89q.worldedit.forge.ForgeWorldEdit.setupPlatform(ForgeWorldEdit.java:140) ~[?:?] {re:classloading}
+	at com.sk89q.worldedit.forge.ForgeWorldEdit.serverStarted(ForgeWorldEdit.java:207) ~[?:?] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_16_ForgeWorldEdit_serverStarted_FMLServerStartedEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-3.0.3-service.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) ~[eventbus-3.0.3-service.jar:?] {}
+	at net.minecraftforge.fml.server.ServerLifecycleHooks.handleServerStarted(ServerLifecycleHooks.java:109) ~[?:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:639) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$func_240784_a_$0(MinecraftServer.java:230) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.2
+	Minecraft Version ID: 1.16.2
+	Operating System: Mac OS X (x86_64) version 10.15.6
+	Java Version: 1.8.0_261, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 421150208 bytes (401 MB) / 865075200 bytes (825 MB) up to 1431830528 bytes (1365 MB)
+	CPUs: 2
+	JVM Flags: 1 total; -Xss1M
+	ModLauncher: 6.1.1+74+master.966c698
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/mixin-0.8.jar mixin PLUGINSERVICE 
+		/eventbus-3.0.3-service.jar eventbus PLUGINSERVICE 
+		/forge-1.16.2-33.0.20_mapped_snapshot_20200514-1.16-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.2-33.0.20_mapped_snapshot_20200514-1.16-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.2.0-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.2-33.0.20_mapped_snapshot_20200514-1.16-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.2-33.0.20_mapped_snapshot_20200514-1.16-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.jar mixin TRANSFORMATIONSERVICE 
+		/preview_OptiFine_1.16.2_HD_U_G3_pre2.jar OptiFine TRANSFORMATIONSERVICE 
+		/forge-1.16.2-33.0.20_mapped_snapshot_20200514-1.16-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 33.0
+	Forge: net.minecraftforge:33.0.20
+	FML Language Providers: 
+		javafml@33.0
+		minecraft@1
+	Mod List: 
+		client-extra.jar Minecraft {minecraft@1.16.2 DONE}
+		main Unnecessary Additions {unaddon@NONE DONE}
+		forge-1.16.2-33.0.20_mapped_snapshot_20200514-1.16-recomp.jar Forge {forge@33.0.20 DONE}
+		worldedit-forge-mc1.16.2-7.2.0-beta-04.jar WorldEdit {worldedit@7.2.0-beta-04+98f71a3 DONE}
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, mod:unaddon, mod:forge (incompatible), mod:worldedit (incompatible)
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'
